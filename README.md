@@ -81,4 +81,4 @@ streamlit run app.py
 ## Author
 
 **Jelena Vucetic**
-[LinkedIn](https://linkedin.com/in/jelena-vucetic-663078317) · [GitHub](https://github.com/vucko23)pip freeze > requirements.txt
+[LinkedIn](https://linkedin.com/in/jelena-vucetic-663078317) · [GitHub](https://github.com/vucko23)
