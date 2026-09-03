@@ -96,7 +96,7 @@ def run_agent(user_message: str, conversation_history: list):
     })
 
     response = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-sonnet-5",
         max_tokens=1024,
         system="Ti si NBA ekspert asistent. Koristiš dostupne alate da odgovaraš na pitanja o NBA statistikama i timovima. Odgovaraj koncizno i informativno.",
         tools=tools,
@@ -141,7 +141,7 @@ def run_agent(user_message: str, conversation_history: list):
 
         # Pozovi Claude ponovo sa rezultatima
         response = client.messages.create(
-            model="claude-sonnet-4-20250514",
+            model="claude-sonnet-5",
             max_tokens=1024,
             system="You are an NBA expert assistant. You use available tools to answer questions about NBA statistics, teams, players, and match predictions. Respond concisely and informatively. Always respond in the same language the user is writing in.",
             tools=tools,
